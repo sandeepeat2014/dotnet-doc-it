@@ -1,0 +1,11 @@
+kind: LocalConfig
+apiversion: odo.dev/v1alpha1
+ComponentSettings:
+  Type: dotnet:3.1
+  SourceLocation: ./
+  SourceType: local
+  Ports:
+  - 8080/TCP
+  Application: dotnetdset
+  Project: dotnetdset
+  Name: dotnetdsetcomp

@@ -77,9 +77,7 @@
             "dependsOn": [
                 "docker-build: debug"
             ],
-            "dockerRun": {
-                "os": "Windows"
-            },
+            "dockerRun": {},
             "netCore": {
                 "appProject": "${workspaceFolder}/dotnet-doc-it.csproj",
                 "enableDebugging": true
@@ -91,9 +89,7 @@
             "dependsOn": [
                 "docker-build: release"
             ],
-            "dockerRun": {
-                "os": "Windows"
-            },
+            "dockerRun": {},
             "netCore": {
                 "appProject": "${workspaceFolder}/dotnet-doc-it.csproj"
             }
